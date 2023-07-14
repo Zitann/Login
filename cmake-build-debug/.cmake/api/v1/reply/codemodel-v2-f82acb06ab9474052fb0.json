@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Login",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Login::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Login-Debug-5a659d822101be61ea00.json",
+					"name" : "Login",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Login_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Login_autogen-Debug-28c31ad980ee1801e0c2.json",
+					"name" : "Login_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Login_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Login_autogen_timestamp_deps-Debug-cf7f63cc0d9b65840544.json",
+					"name" : "Login_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/CLion/Login/cmake-build-debug",
+		"source" : "E:/CLion/Login"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
