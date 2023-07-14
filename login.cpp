@@ -114,13 +114,13 @@ void Login::on_login_clicked() {
         }
         //检查密码是否符合规则
         for(int i=0;i<password.length();i++){
-            if(!((password[i]>='0'&&password[i]<='9')||!(password[i]>='A'&&password[i]<='Z')||!(password[i]>='a'&&password[i]<='z')||password[i]=='_'||password[i]=='@'||password[i]=='.')){
+            if(!((password[i]>=QChar('0')&&password[i]<=QChar('9'))||!(password[i]>=QChar('A')&&password[i]<=QChar('Z'))||!(password[i]>=QChar('a')&&password[i]<=QChar('z'))||password[i]==QChar('_')||password[i]==QChar('@')||password[i]==QChar('.'))){
                 QMessageBox::warning(this,QString::fromLocal8Bit("警告"),QString::fromLocal8Bit("密码只能由数字、字母、下划线、@和.组成！"),QMessageBox::Yes);
                 return;
             }
         }
         //检查用户名和密码长度
-        if(username.size()>15&&username.size()<6||password.size()>15&&password.size()<6){
+        if(username.length()>15||username.length()<6||password.length()>15||password.length()<6){
             QMessageBox::warning(this,QString::fromLocal8Bit("警告"),QString::fromLocal8Bit("用户名或密码长度应该在6-15位之间！"),QMessageBox::Yes);
             return;
         }
