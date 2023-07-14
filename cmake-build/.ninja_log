@@ -1,0 +1,11 @@
+# ninja log v5
+4	2634	7110250896528093	Login_autogen/timestamp	c7ada4dc0bbc9f55
+4	2634	7110250896528093	Login_autogen/mocs_compilation.cpp	c7ada4dc0bbc9f55
+4	2634	7110250896528093	E:/CLion/Login/cmake-build/Login_autogen/timestamp	c7ada4dc0bbc9f55
+4	2634	7110250896528093	E:/CLion/Login/cmake-build/Login_autogen/mocs_compilation.cpp	c7ada4dc0bbc9f55
+2636	6257	7110250934641365	CMakeFiles/Login.dir/Login_autogen/mocs_compilation.cpp.obj	d68ce05958a05fb
+2644	6783	7110250939903540	CMakeFiles/Login.dir/main.cpp.obj	e20eb726f79a7841
+2662	7328	7110250945363213	CMakeFiles/Login.dir/home.cpp.obj	a7375955ca050c78
+2652	7379	7110250945880189	CMakeFiles/Login.dir/login.cpp.obj	75b3a32f88675721
+2672	11375	7110250985748444	CMakeFiles/Login.dir/sqlite3.c.obj	8b968f439a8ef400
+11390	11965	7110250989504085	Login.exe	e25001e0c4e72469
